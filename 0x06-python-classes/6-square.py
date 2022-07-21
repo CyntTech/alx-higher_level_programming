@@ -11,16 +11,16 @@ class Square:
     def __init__(self, size=0, position=(0, 0)):
         """initializes the square
         Args:
-            size (int): size of the square
+            size (int): size of a side of the square
             position (tuple): positoin of the square in 2D space
         Returns:
-            Nothing
+            None
         """
         self.size = size
         self.position = position
 
     def area(self):
-        """calculation of the area of a square
+        """calculates the square's area
         Returns:
             The area of the square
         """
@@ -38,9 +38,9 @@ class Square:
     def size(self, value):
         """setter of __size
         Args:
-            value (int): size of the square
+            value (int): size of a side of the square
         Returns:
-            Nothing
+            None
         """
         if type(value) is not int:
             raise TypeError("size must be an integer")
@@ -53,7 +53,7 @@ class Square:
     def my_print(self):
         """prints the square
         Returns:
-            Nothing
+            None
         """
         if self.__size == 0:
             print()
@@ -78,7 +78,7 @@ class Square:
         Args:
             value (tuple): position of the square in 2D space
         Returns:
-            Nothing
+            None
         """
         if type(value) is not tuple or len(value) != 2 or \
            type(value[0]) is not int or value[0] < 0 or \
