@@ -5,13 +5,13 @@
 class Square:
     """Represents a square
     Attributes:
-        __size (int): size of a size of the square
+        __size (int): size of the square
         __position (tuple): position of the square in 2D space
     """
     def __init__(self, size=0, position=(0, 0)):
         """initializes the square
         Args:
-            size (int): size of a side of the square
+            size (int): size of the square
             position (tuple): positoin of the square in 2D space
         Returns:
             Nothing
