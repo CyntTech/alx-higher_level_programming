@@ -1,2 +1,2 @@
---script that deletes the database hbtn_0c_c 
+-- script that deletes the database hbtn_0c_c 
 DROP DATABASE IF EXISTS hbtn_0c_0; 
