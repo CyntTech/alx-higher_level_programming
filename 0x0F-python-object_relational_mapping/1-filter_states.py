@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-listing of all states with a name starting with N from the database hbtn_0e_0_usa
+listing of states with a name starting with N from the database hbtn_0e_0_usa
 '''
 import MySQLdb
 from sys import argv
